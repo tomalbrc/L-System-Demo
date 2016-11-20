@@ -5,7 +5,7 @@ Available "commands":
 - F = Move forward
 - + = rotate
 - - = rotate
-- [ # save rotation & location state
+- [ = save rotation & location state
 - ] = pop  rotation & location state
 - X = placeholder to influence growth
 
