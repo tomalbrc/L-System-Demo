@@ -6,7 +6,7 @@
 int main() {
 	FE::EngineHelper::getInstance()->Init();
 	
-	auto win = FE::Window::create("Fractal Tree Demo", FE::Vec2Make(640), false, true);
+	auto win = FE::Window::create("L-System Demo", FE::Vec2Make(640), false, false);
 	win->presentScene(MainScene::create());
 	win->startLoop();
 	
